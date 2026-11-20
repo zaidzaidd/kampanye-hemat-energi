@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EnergiKita — Kampanye Hemat Energi Siswa Kelas XI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<nav>
+  <a class="nav-logo" href="#"><span class="nav-logo-dot"></span>EnergiKita</a>
+  <ul class="nav-links">
+    <li><a href="#aksi">Aksi Kita</a></li>
+    <li><a href="#data">Data & Fakta</a></li>
+    <li><a href="#jurusan">Per Jurusan</a></li>
+    <li><a href="#temuan">Temuan</a></li>
+    <li><a href="#tentang">Tentang</a></li>
+  </ul>
+  <a href="#aksi" class="nav-cta">⚡ Mulai Aksi</a>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-blob-1"></div>
+  <div class="hero-blob-2"></div>
+  <div class="hero-badge"><span class="live"></span>Kampanye Aktif 2026</div>
+  <h1>Hemat Energi,<br><span class="accent">Masa Depan Lebih Cerah</span></h1>
+  <p>Kampanye berbasis data nyata dari 636 siswa Kelas XI — membangun kebiasaan hemat energi yang terukur dan berkelanjutan.</p>
+  <div class="hero-actions">
+    <a href="#aksi" class="btn-primary">⚡ Lihat Aksi Kita</a>
+    <a href="#data" class="btn-outline">📊 Eksplorasi Data</a>
+  </div>
+</section>
+
+<!-- ══ TICKER ══ -->
+<div class="ticker-wrap">
+  <div class="ticker-inner">
+    <div class="ticker-item"><span class="ticker-num">636</span><span class="ticker-label">Responden</span></div>
+    <span class="ticker-sep">·</span>
+    <div class="ticker-item"><span class="ticker-num">99.4%</span><span class="ticker-label">Partisipasi</span></div>
+    <span class="ticker-sep">·</span>
+    <div class="ticker-item"><span class="ticker-num">3.36</span><span class="ticker-label">Rata-rata Skor</span></div>
+    <span class="ticker-sep">·</span>
+    <div class="ticker-item"><span class="ticker-num">59.4%</span><span class="ticker-label">Sangat Baik</span></div>
+    <span class="ticker-sep">·</span>
+    <div class="ticker-item"><span class="ticker-num">90.79%</span><span class="ticker-label">Sering Hemat Energi</span></div>
+    <span class="ticker-sep">·</span>
+    <div class="ticker-item"><span class="ticker-num">7</span><span class="ticker-label">Jurusan</span></div>
+    <span class="ticker-sep">·</span>
+    <!-- duplicate for seamless loop -->
+    <div class="ticker-item"><span class="ticker-num">636</span><span class="ticker-label">Responden</span></div>
+    <span class="ticker-sep">·</span>
+    <div class="ticker-item"><span class="ticker-num">99.4%</span><span class="ticker-label">Partisipasi</span></div>
+    <span class="ticker-sep">·</span>
+    <div class="ticker-item"><span class="ticker-num">3.36</span><span class="ticker-label">Rata-rata Skor</span></div>
+    <span class="ticker-sep">·</span>
+    <div class="ticker-item"><span class="ticker-num">59.4%</span><span class="ticker-label">Sangat Baik</span></div>
+    <span class="ticker-sep">·</span>
+    <div class="ticker-item"><span class="ticker-num">90.79%</span><span class="ticker-label">Sering Hemat Energi</span></div>
+    <span class="ticker-sep">·</span>
+    <div class="ticker-item"><span class="ticker-num">7</span><span class="ticker-label">Jurusan</span></div>
+  </div>
+</div>
+
+<!-- ══ AKSI KITA ══ -->
+<div class="section-alt" id="aksi">
+  <div class="section-alt-inner">
+    <div class="section-label">Aksi & Rekomendasi</div>
+    <h2 class="section-title">Aksi Kita untuk Hemat Energi</h2>
+    <p class="section-desc">3 kelompok aksi konkret berdasarkan temuan data nyata — bukan saran klise, langsung bisa dilakukan hari ini di sekolah maupun rumah.</p>
+
+    <div class="aksi-grid">
+
+      <!-- AKSI 1 -->
+      <div class="aksi-card a1">
+        <div class="aksi-kode">Aksi 01 — Di Ruangan</div>
+        <div class="aksi-icon">💡</div>
+        <h3 class="aksi-title">Kelola Cahaya & Udara dengan Bijak</h3>
+        <p class="aksi-desc">Lampu, AC, dan kipas adalah sumber pemborosan terbesar di sekolah. Data menunjukkan masih ada <strong style="color:var(--green-700)">9–10% siswa yang jarang</strong> berinisiatif mematikannya saat ruangan kosong.</p>
+        <ul class="aksi-steps">
+          <li><span class="step-icon">🌅</span>Buka tirai & jendela pagi hari — manfaatkan cahaya matahari</li>
+          <li><span class="step-icon">💨</span>Matikan AC/kipas saat jam istirahat & kelas kosong</li>
+          <li><span class="step-icon">🌡️</span>Atur suhu AC minimal 24–25°C, bukan 16°C</li>
+          <li><span class="step-icon">🚪</span>Yang keluar terakhir = yang matikan semua perangkat</li>
+        </ul>
+        <div class="aksi-challenge">
+          <span class="challenge-label">🎯 Tantangan Kelas</span>
+          Tunjuk "Penjaga Energi" bergilir setiap hari — satu orang yang bertanggung jawab cek lampu, AC, dan kipas sebelum kelas ditinggalkan.
+        </div>
+      </div>
+
+      <!-- AKSI 2 -->
+      <div class="aksi-card a2">
+        <div class="aksi-kode">Aksi 02 — Perangkat Elektronik</div>
+        <div class="aksi-icon">🔌</div>
+        <h3 class="aksi-title">Kendalikan Gawai & Alat Elektronik</h3>
+        <p class="aksi-desc">Indikator P04 (batasi gawai) & P06 (cabut charger) adalah yang paling kritis. <strong style="color:var(--teal-700)">Charger menancap tanpa HP tetap menarik listrik</strong> — disebut "phantom load".</p>
+        <ul class="aksi-steps">
+          <li><span class="step-icon">🔌</span>Cabut charger & steker setelah selesai dipakai</li>
+          <li><span class="step-icon">📱</span>Tutup aplikasi & tab yang tidak digunakan</li>
+          <li><span class="step-icon">💻</span>Aktifkan mode hemat daya di HP/laptop</li>
+          <li><span class="step-icon">🏫</span>Pastikan komputer lab dimatikan sebelum pulang</li>
+        </ul>
+        <div class="aksi-challenge">
+          <span class="challenge-label">🎯 Tantangan Harian</span>
+          Setiap ambil HP dari colokan, langsung cabut charger-nya. Pasang sticky note di tas sebagai pengingat — jadikan kebiasaan otomatis!
+        </div>
+      </div>
+
+      <!-- AKSI 3 -->
+      <div class="aksi-card a3">
+        <div class="aksi-kode">Aksi 03 — Sosial & Mobilitas</div>
+        <div class="aksi-icon">🗣️</div>
+        <h3 class="aksi-title">Ajak, Tegur, & Pilih Transportasi Hijau</h3>
+        <p class="aksi-desc">P09 (berani ajak teman) adalah indikator <strong style="color:var(--lime-500)">terendah bersama P04</strong>. Kampanye dimulai dari satu percakapan kecil — kamu bisa jadi penggeraknya.</p>
+        <ul class="aksi-steps">
+          <li><span class="step-icon">🚶</span>Jalan kaki atau bersepeda jika jarak ≤ 1 km</li>
+          <li><span class="step-icon">🚌</span>Gunakan transportasi umum jika memungkinkan</li>
+          <li><span class="step-icon">💬</span>Ajak teman dengan ramah: "Eh matiin lampunya dulu yuk!"</li>
+          <li><span class="step-icon">📢</span>Jadi duta energi di kelasmu — sebar kebiasaan baik</li>
+        </ul>
+        <div class="aksi-challenge">
+          <span class="challenge-label">🎯 Tantangan Sosial</span>
+          Ajak minimal 1 temanmu hari ini untuk ikut hemat energi. Satu ajakan bisa menggerakkan banyak orang — dan datanya membuktikan itu butuh lebih banyak perhatian.
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CTA Banner -->
+    <div style="margin-top:36px;background:linear-gradient(135deg,var(--green-600),var(--teal-600));border-radius:var(--radius-lg);padding:36px 40px;display:flex;align-items:center;justify-content:space-between;gap:24px;box-shadow:var(--shadow-g);flex-wrap:wrap">
+      <div>
+        <div style="font-family:'Plus Jakarta Sans',sans-serif;font-size:1.3rem;font-weight:800;color:#fff;margin-bottom:6px">Mulai Hari Ini. Satu Aksi, Satu Perubahan.</div>
+        <div style="font-size:.9rem;color:rgba(255,255,255,.8)">96.2% siswa sudah di jalur yang benar — ayo dorong yang 3.8% sisanya bersama-sama.</div>
+      </div>
+      <a href="#data" style="background:#fff;color:var(--green-700);padding:14px 28px;border-radius:100px;font-weight:700;font-size:.9rem;text-decoration:none;white-space:nowrap;transition:all .2s;box-shadow:0 4px 16px rgba(0,0,0,.1)" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform=''">📊 Lihat Data Lengkap</a>
+    </div>
+  </div>
+</div>
+
+<!-- ══ KPI ══ -->
+<div class="section">
+  <div class="section-label">Statistik Kunci</div>
+  <h2 class="section-title">Ringkasan Data Survei</h2>
+  <p class="section-desc">Hasil kuesioner perilaku hemat energi dari 636 responden siswa Kelas XI, Oktober–November 2026.</p>
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <span class="kpi-num">636</span>
+      <div class="kpi-label">Responden Valid</div>
+      <span class="kpi-pill g">99.4% partisipasi</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-num">3.36</span>
+      <div class="kpi-label">Rata-rata Skor Per Butir (skala 4)</div>
+      <span class="kpi-pill g">Kategori Sangat Baik</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-num">59.4%</span>
+      <div class="kpi-label">Siswa Kategori Sangat Baik</div>
+      <span class="kpi-pill g">378 siswa</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-num">90.79%</span>
+      <div class="kpi-label">Rata-rata Sering Hemat Energi</div>
+      <span class="kpi-pill a">9.21% perlu ditingkatkan</span>
+    </div>
+  </div>
+</div>
+
+<!-- ══ DASHBOARD ══ -->
+<div class="section-alt" id="data">
+  <div class="section-alt-inner">
+    <div class="section-label">Data & Visualisasi</div>
+    <h2 class="section-title">Dashboard Perilaku Energi</h2>
+    <p class="section-desc">Eksplorasi data perilaku hemat energi dari 10 indikator dan sebaran skor per jurusan.</p>
+
+    <div class="charts-grid">
+      <div class="chart-card wide">
+        <div class="chart-title">Rata-rata Skor per Indikator (P01–P10)</div>
+        <div class="chart-sub">Skala Likert 1–4 · 636 responden · Garis = rata-rata 3.36</div>
+        <canvas id="chartButir" height="90"></canvas>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Distribusi Kategori Siswa</div>
+        <div class="chart-sub">Berdasarkan total skor (10–40)</div>
+        <div style="max-width:300px;margin:0 auto"><canvas id="chartKategori" height="250"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Skor Rata-rata per Jurusan</div>
+        <div class="chart-sub">Peringkat dari tertinggi ke terendah</div>
+        <canvas id="chartJurusan" height="250"></canvas>
+      </div>
+      <div class="chart-card wide">
+        <div class="chart-title">Sebaran Skor Total Siswa (10–40)</div>
+        <div class="chart-sub">Distribusi frekuensi — skor 40 dominan (86 siswa)</div>
+        <canvas id="chartSebaran" height="80"></canvas>
+      </div>
+      <div class="chart-card wide">
+        <div class="chart-title">% Sering vs % Jarang per Indikator</div>
+        <div class="chart-sub">P04 & P09 punya % jarang tertinggi (13.7% & 13.2%)</div>
+        <canvas id="chartSeringJarang" height="80"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ INDIKATOR ══ -->
+<div class="section">
+  <div class="section-label">Detail Indikator</div>
+  <h2 class="section-title">10 Indikator Perilaku Energi</h2>
+  <p class="section-desc">Setiap butir menggambarkan satu aspek perilaku hemat energi siswa.</p>
+  <div class="prog-list" id="progList"></div>
+</div>
+
+<!-- ══ JURUSAN ══ -->
+<div class="section-alt" id="jurusan">
+  <div class="section-alt-inner">
+    <div class="section-label">Analisis Jurusan</div>
+    <h2 class="section-title">Peringkat Per Jurusan</h2>
+    <p class="section-desc">PMN (Pemasaran) mencatat skor tertinggi, sementara PPLG dan MPLB perlu perhatian lebih.</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th><th>Jurusan</th><th>Responden</th>
+            <th>Rata-rata Skor</th><th>Total</th>
+            <th>% Sangat Baik</th><th>Kategori</th>
+          </tr>
+        </thead>
+        <tbody id="jurusanTable"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ══ TEMUAN ══ -->
+<div class="section" id="temuan">
+  <div class="section-label">Insight Utama</div>
+  <h2 class="section-title">Temuan & Rekomendasi</h2>
+  <p class="section-desc">Poin kekuatan dan area yang memerlukan intervensi kampanye lebih lanjut.</p>
+  <div class="findings-grid">
+    <div class="finding-card pos">
+      <div class="fl">🏆 Kekuatan Tertinggi</div>
+      <div class="ft">Praktik Hemat Energi Sehari-hari (P01)</div>
+      <div class="fs">98.6% siswa sadar mempraktikkan penghematan air dan listrik dalam aktivitas harian</div>
+      <div class="fm">
+        <div class="fscore">3.51</div>
+        <div class="fbar-wrap">
+          <div style="font-size:.73rem;color:var(--text-400);margin-bottom:4px">98.6% sering melakukan</div>
+          <div class="fbar"><div class="fbar-fill" style="width:87.75%"></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="finding-card pos">
+      <div class="fl">⚡ Kekuatan Kedua</div>
+      <div class="ft">Cabut Charger/Steker Setelah Dipakai (P06)</div>
+      <div class="fs">Kesadaran tentang phantom load sudah tinggi di kalangan siswa</div>
+      <div class="fm">
+        <div class="fscore">3.45</div>
+        <div class="fbar-wrap">
+          <div style="font-size:.73rem;color:var(--text-400);margin-bottom:4px">92.0% sering melakukan</div>
+          <div class="fbar"><div class="fbar-fill" style="width:86.25%"></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="finding-card neg">
+      <div class="fl">⚠️ Perlu Perhatian</div>
+      <div class="ft">Batasi Penggunaan Gawai/Laptop (P04)</div>
+      <div class="fs">13.7% siswa masih jarang membatasi penggunaan elektronik yang tidak perlu</div>
+      <div class="fm">
+        <div class="fscore">3.22</div>
+        <div class="fbar-wrap">
+          <div style="font-size:.73rem;color:var(--text-400);margin-bottom:4px">13.7% siswa jarang melakukan</div>
+          <div class="fbar"><div class="fbar-fill" style="width:13.7%"></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="finding-card neg">
+      <div class="fl">💬 Perlu Didorong</div>
+      <div class="ft">Berani Menegur/Mengajak Teman (P09)</div>
+      <div class="fs">13.2% siswa jarang mengajak teman peduli hemat energi — aspek sosial paling lemah</div>
+      <div class="fm">
+        <div class="fscore">3.22</div>
+        <div class="fbar-wrap">
+          <div style="font-size:.73rem;color:var(--text-400);margin-bottom:4px">13.2% siswa jarang melakukan</div>
+          <div class="fbar"><div class="fbar-fill" style="width:13.2%"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ TENTANG ══ -->
+<div class="section-alt" id="tentang">
+  <div class="section-alt-inner">
+    <div class="section-label">Tentang Proyek</div>
+    <h2 class="section-title">EnergiKita — Kampanye Berbasis Data</h2>
+    <p class="section-desc">Dibangun dari data survei nyata, bukan asumsi.</p>
+    <div class="about-grid">
+      <div class="about-visual">
+        <div class="chart-title" style="margin-bottom:4px">Distribusi Kategori Global</div>
+        <div class="chart-sub" style="margin-bottom:0">636 Siswa Kelas XI</div>
+        <div class="donut-wrap"><canvas id="chartAbout"></canvas></div>
+        <div class="donut-legend">
+          <div class="dl-item"><span class="dl-dot" style="background:#22c55e"></span>Sangat Baik 59.4%</div>
+          <div class="dl-item"><span class="dl-dot" style="background:#14b8a6"></span>Baik 36.8%</div>
+          <div class="dl-item"><span class="dl-dot" style="background:#f59e0b"></span>Cukup 3.6%</div>
+          <div class="dl-item"><span class="dl-dot" style="background:#f87171"></span>Kurang 0.2%</div>
+        </div>
+      </div>
+      <div class="about-text">
+        <p>Proyek <span class="hl">EnergiKita</span> adalah kampanye edukasi hemat energi yang dirancang berdasarkan data survei perilaku nyata siswa Kelas XI. Kampanye ini tidak sekadar slogan — setiap langkah didukung oleh temuan empiris.</p>
+        <p>Survei dilakukan pada <span class="hl">12 Oktober – 5 November 2026</span> kepada 639 siswa, dengan tingkat partisipasi <span class="hl">99.4%</span>. Data dianalisis menggunakan skala Likert 1–4 pada 10 indikator perilaku energi.</p>
+        <p>Hasil menunjukkan bahwa <span class="hl">96.2% siswa sudah berada di kategori Baik atau Sangat Baik</span>. Kampanye ini bertujuan mengangkat 3.8% siswa yang masih di kategori Cukup dan Kurang, sekaligus memperkuat perilaku positif yang sudah ada.</p>
+        <div class="tags">
+          <span class="tag">Hemat Listrik</span><span class="tag">Ramah Lingkungan</span>
+          <span class="tag">Berbasis Data</span><span class="tag">636 Responden</span>
+          <span class="tag">7 Jurusan</span><span class="tag">Likert 1–4</span>
+          <span class="tag">Kelas XI 2026</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-logo">🌿 EnergiKita</div>
+  <div class="footer-sub">Kampanye Hemat Energi · Siswa Kelas XI · 2026–2027</div>
+  <div class="footer-links">
+    <a href="#aksi">Aksi Kita</a>
+    <a href="#data">Data</a>
+    <a href="#jurusan">Per Jurusan</a>
+    <a href="#temuan">Temuan</a>
+    <a href="#tentang">Tentang</a>
+  </div>
+  <div class="footer-copy">Data survei telah diagregasi dan dianonimkan · Tidak memuat identitas responden</div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
